@@ -62,7 +62,7 @@ a {
 -------------------- */
 
 .main {
-  margin-top: 128px;
+  margin-top: 124px;
 }
 
 .business-card-section {
@@ -71,26 +71,42 @@ a {
 }
 
 .business-card {
-  width: 420px;
+  width: 416px;
   background-color: var(--card);
   border-radius: 12px;
   box-shadow: 0 30px 100px 0 rgb(17 23 41 / 5%);
 }
 
-/* .business-card__image {
-} */
+.business-card__image {
+  position: relative;
+}
 
 .business-card__hero-image {
   border-radius: 12px;
 }
 
+.business-card__overlay-image {
+  position: absolute;
+  bottom: -1;
+}
+
+.business-card__contents {
+  padding-top: 4px;
+  padding-bottom: 24px;
+}
+
 .business-card__title {
+  padding: 0 32px;
+  margin-top: 4px;
   font-family: var(--font-poppins);
   font-size: 1.5rem;
+  line-height: 1.5;
   color: var(--card-primary-text);
 }
 
 .business-card__description {
+  padding: 0 32px;
+  margin-top: 12px;
   font-family: var(--font-lato);
   font-size: 1rem;
   color: var(--card-secondary-text);
@@ -103,7 +119,7 @@ a {
 
 .business-card__author {
   display: flex;
-  padding: 0 24px;
+  padding: 0 32px;
 }
 
 .business-card__author-avatar {
