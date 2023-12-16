@@ -106,6 +106,7 @@ a {
   font-size: 1.5rem;
   line-height: 1.5;
   color: var(--card-primary-text);
+  white-space: normal;
 }
 
 .business-card__description {
@@ -151,6 +152,7 @@ a {
 .business-card__author-name {
   font-family: var(--font-lato);
   font-size: 1rem;
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -158,6 +160,7 @@ a {
   display: block;
   font-family: var(--font-lato);
   font-size: 0.75rem;
+  font-weight: 600;
   line-height: 1;
   color: var(--card-secondary-text);
 }
