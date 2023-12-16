@@ -82,12 +82,16 @@ a {
 }
 
 .business-card__hero-image {
+  max-width: 100%;
+  height: auto;
   border-radius: 12px;
 }
 
 .business-card__overlay-image {
   position: absolute;
   bottom: -1;
+  max-width: 100%;
+  height: auto;
 }
 
 .business-card__contents {
@@ -123,6 +127,8 @@ a {
 }
 
 .business-card__author-avatar {
+  max-width: 100%;
+  height: auto;
   color: var(--card-primary-text);
   border-radius: 50%;
 }
