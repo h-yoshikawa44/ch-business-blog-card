@@ -20,9 +20,46 @@
     />
   </head>
   <body>
-    <div id="app">
-      <h1>Vite App</h1>
-    </div>
+    <header class="header">
+      <h1>Business Blog Card</h1>
+    </header>
+    <main class="main">
+      <section class="business-card-section">
+        <div class="business-card">
+          <div>
+            <img
+              class="business-card__hero-image"
+              src="./images/hero-image-business-card.png"
+              alt=""
+            />
+            <img src="./images/white-overlay.svg" alt="" />
+          </div>
+          <h4 class="business-card__title">
+            Perfect solution for small business
+          </h4>
+          <p class="business-card__description">
+            Small businesses need to generate leads to grow. You can use tools
+            like Ringy.
+          </p>
+          <footer class="business-card__footer">
+            <div class="business-card__author">
+              <img
+                class="business-card__author-avatar"
+                src="./images/avatar-image-business-card.png"
+                alt=""
+              />
+              <div>
+                <p class="business-card__author-name">Amy Burgess</p>
+                <small class="business-card__author-official-position"
+                  >Customer Manger, Solution Oy</small
+                >
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </main>
+    <div id="app"></div>
     <script type="module" src="/js/main.js"></script>
   </body>
 </html>

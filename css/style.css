@@ -32,3 +32,92 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* common
+-------------------- */
+
+.container {
+  max-width: 1280px;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+
+/* header
+-------------------- */
+
+/* ref: https://tailwindcss.com/docs/screen-readers */
+.header {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* main
+-------------------- */
+
+.main {
+  margin-top: 128px;
+}
+
+.business-card-section {
+  display: flex;
+  justify-content: center;
+}
+
+.business-card {
+  width: 420px;
+  background-color: var(--card);
+  border-radius: 12px;
+  box-shadow: 0 30px 100px 0 rgb(17 23 41 / 5%);
+}
+
+/* .business-card__image {
+} */
+
+.business-card__hero-image {
+  border-radius: 12px;
+}
+
+.business-card__title {
+  font-family: var(--font-poppins);
+  font-size: 1.5rem;
+  color: var(--card-primary-text);
+}
+
+.business-card__description {
+  font-family: var(--font-lato);
+  font-size: 1rem;
+  color: var(--card-secondary-text);
+}
+
+.business-card__footer {
+  padding: 20px 0;
+  border: 1px solid var(--light-gray);
+}
+
+.business-card__author {
+  display: flex;
+  padding: 0 24px;
+}
+
+.business-card__author-avatar {
+  color: var(--card-primary-text);
+  border-radius: 50%;
+}
+
+.business-card__author-name {
+  font-family: var(--font-lato);
+  font-size: 1rem;
+}
+
+.business-card__author-official-position {
+  font-family: var(--font-lato);
+  font-size: 0.75rem;
+  color: var(--card-secondary-text);
+}
