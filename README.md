@@ -8,14 +8,14 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://h-yoshikawa44.github.io/ch-business-blog-card/">
+    <a href="https://h-yoshikawa44.github.io/ch-business-blog-card/">
       Demo
     </a>
-    <span> | </span> -->
-    <!-- <a href="">
+    <span> | </span>
+    <a href="https://devchallenges.io/solution/4470">
       Solution
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <a href="https://devchallenges.io/challenge/28">
       Challenge
     </a>
@@ -43,11 +43,11 @@
 
 ### Desktop
 
-（スクショを貼る）
+![overview - desktop](/screenshots/desktop.png)
 
 ### Mobile
 
-（スクショを貼る）
+<img src="/screenshots/mobile.png" alt="overview - mobile" width="35%">
 
 ### Built With
 
@@ -58,7 +58,7 @@ Base
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
 - [Node.js](https://nodejs.org/)：20.9.0
-- [Vite](https://ja.vitejs.dev/)：5.0.0
+- [Vite](https://ja.vitejs.dev/)：5.0.10
 
 Other major libraries
 
@@ -70,9 +70,9 @@ Other major libraries
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenge/27) was to build an application to complete the given user stories.
 
-- [ ] Create a card component that matches the given design.
-- [ ] Use HTML to create the basic structure.
-- [ ] Use CSS to style the card.
+- [x] Create a card component that matches the given design.
+- [x] Use HTML to create the basic structure.
+- [x] Use CSS to style the card.
 
 ## How To Use
 
@@ -95,13 +95,13 @@ npm run dev
 
 ## learned/improved
 
-（後で書く）
+- Reviewed how to stack images with CSS.
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-（後で書く）
+- [Chrome 拡張 - Page Ruler](https://chromewebstore.google.com/detail/page-ruler/jcbmcnpepaddcedmjdcmhbekjhbfnlff?hl=ja)
 
 ## Contact
 
