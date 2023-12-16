@@ -10,11 +10,75 @@
       content="devChallenges.io - Minimal Blog Card | by h-yoshikawa44"
     />
     <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&amp;family=Poppins&amp;display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="app">
-      <h1>Vite App</h1>
-    </div>
+    <header class="header">
+      <h1>Business Blog Card</h1>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="business-card-section">
+          <div class="business-card">
+            <p class="business-card__image">
+              <img
+                class="business-card__hero-image"
+                src="./images/hero-image-business-card.png"
+                alt="business negotiation image"
+                height="278"
+                width="416"
+                decoding="async"
+              />
+              <img
+                class="business-card__overlay-image"
+                src="./images/white-overlay.svg"
+                alt=""
+                height="68"
+                width="416"
+                decoding="async"
+              />
+            </p>
+            <div class="business-card__contents">
+              <h4 class="business-card__title">
+                Perfect solution for small business
+              </h4>
+              <p class="business-card__description">
+                Small businesses need to generate leads to grow. You can use
+                tools like Ringy.
+              </p>
+            </div>
+            <footer class="business-card__footer">
+              <div class="business-card__author">
+                <p class="business-card__author-avatar-wrapper">
+                  <img
+                    class="business-card__author-avatar"
+                    src="./images/avatar-image-business-card.png"
+                    alt="Amy Burgess avatar"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                  />
+                </p>
+                <div class="business-card__author-text">
+                  <p class="business-card__author-name">Amy Burgess</p>
+                  <small class="business-card__author-official-position"
+                    >Customer Manger, Solution Oy</small
+                  >
+                </div>
+              </div>
+            </footer>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div id="app"></div>
     <script type="module" src="/js/main.js"></script>
   </body>
 </html>
