@@ -117,13 +117,24 @@ a {
 }
 
 .business-card__footer {
-  padding: 20px 0;
+  padding: 24px 0;
   border: 1px solid var(--light-gray);
 }
 
 .business-card__author {
   display: flex;
+  align-items: center;
   padding: 0 32px;
+}
+
+.business-card__author-avatar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--background);
+  border-radius: 50%;
 }
 
 .business-card__author-avatar {
@@ -133,13 +144,20 @@ a {
   border-radius: 50%;
 }
 
+.business-card__author-text {
+  margin-left: 12px;
+}
+
 .business-card__author-name {
   font-family: var(--font-lato);
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 .business-card__author-official-position {
+  display: block;
   font-family: var(--font-lato);
   font-size: 0.75rem;
+  line-height: 1;
   color: var(--card-secondary-text);
 }
