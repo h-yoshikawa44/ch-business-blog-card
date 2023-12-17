@@ -43,11 +43,11 @@
 
 ### Desktop
 
-![overview - desktop](/screenshots/desktop.png)
+![overview - desktop](./screenshots/desktop.png)
 
 ### Mobile
 
-<img src="/screenshots/mobile.png" alt="overview - mobile" width="35%">
+<img src="./screenshots/mobile.png" alt="overview - mobile" width="35%">
 
 ### Built With
 
@@ -68,7 +68,7 @@ Other major libraries
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenge/27) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenge/28) was to build an application to complete the given user stories.
 
 - [x] Create a card component that matches the given design.
 - [x] Use HTML to create the basic structure.
