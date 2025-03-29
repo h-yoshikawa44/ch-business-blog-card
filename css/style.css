@@ -54,9 +54,9 @@ a {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+  clip: rect(0, 0, 0, 0);
 }
 
 /* main
@@ -90,7 +90,7 @@ a {
 
 .business-card__overlay-image {
   position: absolute;
-  bottom: -1;
+  bottom: -1px;
   max-width: 100%;
   height: auto;
 }
